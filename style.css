@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+} 
+body {
+   
+  background-image: url('golden-sky-sunset-coast-nature-landscape_807689-1169.avif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section {
+    text-align: center;
+    border: 1px solid #1f242d;
+    border-radius: 1rem;
+    padding: 1.7rem;
+    backdrop-filter: blur(15px);
+}
